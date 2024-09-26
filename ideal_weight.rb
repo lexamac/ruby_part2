@@ -1,7 +1,9 @@
-print "Please enter your name: "
+# Ideal Weight task
+
+print 'Please enter your name: '
 name = gets.chomp.capitalize
 
-print "Please enter your height: "
+print 'Please enter your height: '
 height = gets.chomp.to_i
 
 ideal_weight = ((height - 110) * 1.15).round(2)
